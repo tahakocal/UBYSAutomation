@@ -11,5 +11,7 @@ namespace UBYS.Entities
 
 
         public virtual DbSet<Student> Students { get; set; }
+        public virtual DbSet<Lesson> Lessons { get; set; }
+
     }
 }

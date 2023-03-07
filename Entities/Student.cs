@@ -3,9 +3,12 @@
     public class Student
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public int StudentNo { get; set; }
+        public int TcNo { get; set; }
+        public string NameSurname { get; set; }
+        public int Number { get; set; }
+        public int? TelephoneNo { get; set; }
+        public string? Mail { get; set; }
+        public DateTime DateTime { get; set; }
 
     }
 }
